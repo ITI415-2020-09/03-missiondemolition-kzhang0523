@@ -523,11 +523,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4233aeb4f6b567a4cb678e90c34a9dbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  uitLevel: {fileID: 0}
-  uitShots: {fileID: 0}
-  uitButton: {fileID: 0}
-  castlePos: {x: 0, y: 0, z: 0}
-  castles: []
+  uitLevel: {fileID: 1942265403}
+  uitShots: {fileID: 1220692332}
+  uitButton: {fileID: 1627678711}
+  castlePos: {x: 50, y: -9.5, z: 0}
+  castles:
+  - {fileID: 1303917278077555066, guid: b6e41e5d5351cec48a608fe696ecc674, type: 3}
+  - {fileID: 1303917278077555066, guid: 1fadfba440b85ed48b41fabc67035302, type: 3}
+  - {fileID: 1303917278077555066, guid: 3247a73a7bc58184eaf52b2bb8db9460, type: 3}
+  - {fileID: 1303917278077555066, guid: 01368319ff4e6c44b93876ab4dddfca7, type: 3}
   level: 0
   levelMax: 0
   shotsTaken: 0
@@ -1351,7 +1355,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2048554912}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 963194231}
+        m_TargetAssemblyTypeName: MissionDemolition, Assembly-CSharp
+        m_MethodName: SwitchView
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2048554912
 MonoBehaviour:
   m_ObjectHideFlags: 0
